@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Coconut Help for Database</title>
+    <link rel="stylesheet" href="css/database.css">
+</head>
+</script>
+
+<body>
+    <h1>Database Module Guide In Coconut</h1>
+    <div id="createDatabase">
+        <h2>Function: createDatabase</h2>
+        <p>Parameters: name</p>
+        <p>name:str -> The name of the database</p>
+        <p>createDatabase creates a python file inside the databases folder in Coconut and stores it in there. If there
+            is not format given(e.g "Test" instead of "Test.py"), it will accept, however, if it ends with a different
+            format like .js, it will raise InvalidTypeDatabaseError</p>
+    </div>
+    <div id="deleteDatabase">
+        <h2>Function: deleteDatabase</h2>
+        <p>Parameters: name</p>
+        <p>name:str -> The name of the database to delete</p>
+        <p>deleteDatabase deletes the database name in the databases folder in Coconut. If no format is given, it will
+            raise an error.</p>
+    </div>
+    <div id="readDatabase">
+        <h2>Function: readDatabase</h2>
+        <p>Parameters: name</p>
+        <p>name:str -> The name of the database to read
+        <p>readDatabase reads the database and returns the code written inside of the database.</p>
+    </div>
+    <div id="appendDatabase">
+        <h2>Function: appendDatabase</h2>
+        <p>Parameters: filename, code</p>
+        <p>filename:str -> The name of the database to append a line of code to.</p>
+        <p>code:str -> The code you want to append to the database, e.g. x<span id="operator"> = </span><span
+                id="integer">10</span>
+        </p>
+        <p>appendDatabase appends a line of python code into the database, else, those files have no use!</p>
+    </div>
+    <div id="executeDatabase">
+        <h2>Function: executeDatabase</h2>
+        <p>Parameters: filename</p>
+        <p>filename:str -> The name of the file to execute.</p>
+        <p>executeDatabase executes the code inside the name of the database.</p>
+    </div>
+    <div id="classNewCategory" class="class">
+        <h2>Class: NewCategory</h2>
+        <p>Parameters: nameofcategory</p>
+        <p>nameofcategory:str -> The name of the category</p>
+        <p>Coconut's class NewCategory creates a new folder, known as Category in Coconut, inside there will be a
+            __init__.py file for easier import. You can create subcategories which will be explain in createSubCategory
+        </p>
+        <div id="createCategory">
+            <h3>Function: createCategory</h3>
+            <p>Parameters: None(self)</p>
+            <p>self:NewCategory -> to refer to itself</p>
+            <p>Creates the folder inside the databases folder. __init__.py file will be found inside and created from
+                createInitFile()</p>
+        </div>
+        <div id="createSubCategory">
+            <h3>Function: createSubCategory</h3>
+            <p>Parameters: name</p>
+            <p>name:str -> The name of the subcategory. If a subsubcategory is wanted to be made, use
+                os.path.join(nameofsubcategory, nameofsubsubcategory) and the call createSubCategory to create a nested
+                sub category.</p>
+            <p>Creates a sub category or subsubcategory in the Category itself. To create a relative subcategory, you
+                can </p>
+        </div>
+    </div>
+</body>
+
+</html>

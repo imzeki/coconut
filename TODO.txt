@@ -1,0 +1,23 @@
+Coconut's TODO List
+-------------------
+Backend - Add functions that help make the rest of this library's code shorter [√]
+Classifier - Add support to classify sentences based off their categories and allow custom categories[X]
+Colors - Add all possible colors function like displaying [X]
+Commandprompt - Add Command Prompt commands available in Python [X]
+Database - Fix issue where cannot change directory to databases[√]
+Errors - Finish all errors for all modules in here [X]
+Files - Get Tree Directory, Random Files or Folders from Start, Generate random folders with random files and random folders within
+Functions - Finish all other functions in Coconut [X]
+Generator - Finish class Generator and InfoGenerator [X]
+Maths - Finish all Maths related functions and equations [X]
+Music - Finish random generation for music, and finish making music [X]
+Randomization - Add support to generate random strings, integers, floats, folders, files [√]
+Shovel - Finish Support for Web Scraping [X]
+Speaker - Add support to speak [√]
+Styling - Add support to style text [X]
+Toll - Add Money Related equations [X]
+Tools - Add the Main Functions of Coconut [X]
+Typer - Finish support for Integer, Float, List and Percentage [X]
+Utils - Add functions as the other backend of Coconut [X]
+Viewer - Add Support to Open Apps, Files, Folders and Websites [X]
+

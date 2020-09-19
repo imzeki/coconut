@@ -1,0 +1,24 @@
+body {
+    background-color: #F2E8C9;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+div {
+    background-color: #F0DEA6;
+    border-radius: 20px;
+    text-align: center
+}
+
+#integer {
+    color: #FF8F26
+}
+
+#operator {
+    color: #9655FF
+}
+
+div.class {
+    background-color: #FFE279;
+    border-radius: 30px;
+    text-align: center
+}
