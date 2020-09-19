@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: coconut
+Version: 0.0.1
+Summary: Coconut is a module for simplifying simple things and chunk them down into even simpler tasks
+Home-page: https://github.com/imzeki/coconut
+Author: Ezekiel Ruazol Gonzales
+Author-email: ezekiel.r.gonzales@gmail.com
+License: MIT
+Description: Coconut is a very simple programming language. It helps break tasks down into simpler tasks to help conserve space.
+        
+        In order to be used, Coconut requires a lot of recently used modules.
+Platform: UNKNOWN
